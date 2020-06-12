@@ -1,0 +1,19 @@
+.carousel {
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--primaryColor);
+}
+.flex-container div {
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 45px;
+  font-size: 30px;
+}
